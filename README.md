@@ -10,6 +10,9 @@ Audio: Realtek ALC236
 # Here's the bugs
 
 *internal microphone
+
 *trackpad (I couldn't try VoodooI2C because macOS doesn't boot while DSDT active)
+
 *hibernation (I tried HibernationFixup.kext, macOS doesn't boot)
+
 *I've not tried audio jack and Ethernet right now.
