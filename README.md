@@ -3,8 +3,11 @@
 I've installed macOS Monterey onto my laptop finally but I wasn't able to fix some hardwares.
 
 CPU: AMD Ryzen 5 5625U with its internal GPU
+
 Drive: WD_BLACK SN770 2TB
+
 Network: Realtek RTL8111 + Intel AX200
+
 Audio: Realtek ALC236
 
 # Here's the bugs
