@@ -1,6 +1,6 @@
 # OpenCore ESP Backup for HP 245 G9 (6Q8M2ES)
 
-I've installed macOS Monterey onto my laptop finally but I wasn't able to fix some hardwares.
+I've installed macOS Monterey onto my laptop finally ~~but I wasn't able to fix some hardwares~~.
 
 CPU: AMD Ryzen 5 5625U with its internal GPU
 
