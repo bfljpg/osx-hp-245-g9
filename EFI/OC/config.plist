@@ -2066,7 +2066,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>alcid=69 npci=0x3000 debug=0x100 keepsyms=1 revcpu=1</string>
+				<string>alcid=69 npci=0x3000 debug=0x100 keepsyms=1 revcpu=1 -NRedDPDelay</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
