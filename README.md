@@ -54,8 +54,6 @@ Use [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate your own uniq
 
 - Config.plist -> PlatformInfo -> Generic
 
-<img src="assets/smbios.png" style="width: 800px; height: auto;">
-
 ## BIOS setup:
 
 IMPORTANT: Disable TPM and set the assigned VRAM to 1G at minimum, 2G is recommended.
