@@ -2138,11 +2138,11 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02002270J90000UE</string>
+			<string>00000000000000000</string>
 			<key>ProcessorType</key>
 			<integer>1793</integer>
 			<key>ROM</key>
-			<data>468Gwqox</data>
+			<data>AAAAAAAA</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
@@ -2150,9 +2150,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro16,3</string>
 			<key>SystemSerialNumber</key>
-			<string>C02C3SZ4P3XY</string>
+			<string>000000000000</string>
 			<key>SystemUUID</key>
-			<string>26F977F8-CB93-49E6-BCEC-0552A9ECD818</string>
+			<string>00000000-0000-0000-0000-00000000000</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
