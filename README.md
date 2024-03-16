@@ -12,8 +12,6 @@ THIS IS NOT A GUIDE!
 <br/>
 It's just my complete EFI for my hardware based on my experiments, please refer to [Dortania](https://dortania.github.io/getting-started/) before doing anything. I am not responsible for any damage. This OpenCore configuration is optimized for my specific hardware, so please use it only as a reference or if you happen to have the same or similar hardware.
 
-<img src="assets/about-ryzentosh-13.5.png" style="width: 800px; height: auto;">
-
 ## :computer: Hardware:
 
 | **Category** | **Component**                                                                    |
