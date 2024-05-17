@@ -26,13 +26,13 @@ This is simply an EFI backup for the HP 245 G9. Only use this EFI if you have th
 ## :white_check_mark: Working:
 
 - [x] CPU power management
-- [x] Graphics acceleration
+- [x] Graphics acceleration (OpenGL acceleration seems to be working)
 - [x] Keyboard & Trackpad
 - [x] Wi-Fi
 - [x] Bluetooth
 - [x] USB ports
 - [x] HDMI video & audio output
-- [x] Ethernet. (has issues due to the use of RTL8111.kext)
+- [x] Ethernet (has issues due to the use of RTL8111.kext)
 - [x] Audio (internal speakers, 3.5mm headphone jack)
 - [x] Internal microphone
 - [x] HP TrueVision Webcam
@@ -42,6 +42,8 @@ This is simply an EFI backup for the HP 245 G9. Only use this EFI if you have th
 ## :x: Untested:
 - [x] AirDrop & Handoff
 
+## :no_entry_sign: Not working:
+- [x] Virtualization (due to the lack of AMD-V support in macOS)
 
 ## :closed_lock_with_key: SMBIOS
 
