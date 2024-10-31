@@ -1,6 +1,6 @@
 # OpenCore EFI for the HP 245 G9
 
-:information_source: **The current version of the EFI is only compatible with Ventura and below!**
+:information_source: **The current version of the EFI is only compatible with macOS Ventura! Any other versions are UNTESTED!**
 
 <br/>
 
@@ -18,14 +18,14 @@ This is simply an EFI backup for the HP 245 G9. Only use this EFI if you have th
 | **CPU**      | AMD Ryzen 5 5625U 6-Core Processor                                               |
 | **GPU**      | AMD Radeon RX Vega 7                                                             |
 | **RAM**      | 16GB DDR4 3200MHz                                                                |
-| **SSD**      | Kingston SNV2 / SN770 Black                                                      |
-| **Wi-Fi/BT** | Intel AC-8265 / AX200 (default is RTL8852BE)                                     |
+| **SSD**      | WD Blue SN580 / SN770 Black                                                      |
+| **Wi-Fi/BT** | Intel AX200 Wi-Fi 6 (default is RTL8852BE)                                     |
 | **Ethernet** | Realtek RTL8111                                                                  |
 | **Audio**    | Realtek ALC236 (layout-id=69)                                                    |
 
 ## :white_check_mark: Working:
 
-- [x] CPU power management
+- [x] CPU power management (still problematic due to AMD, but works fine)
 - [x] Graphics acceleration (OpenGL acceleration seems to be working)
 - [x] Keyboard & Trackpad
 - [x] Wi-Fi
@@ -40,14 +40,14 @@ This is simply an EFI backup for the HP 245 G9. Only use this EFI if you have th
 - [x] iMessage & FaceTime
 
 ## :x: Untested:
-- [x] AirDrop & Handoff
+- [x] AirDrop & Handoff (most likely non-functional, but needs testing)
 
 ## :no_entry_sign: Not working:
 - [x] Virtualization (due to the lack of AMD-V support in macOS)
 
 ## :closed_lock_with_key: SMBIOS
 
-You will need to generate your own SMBIOS and configure, since is required to fully work with macOS. As per this [guide](https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html#platforminfo) you can use the following SMBIOS: MacBookPro16,3. Note that if your hardware is different for the one mentioned [here](#computer-hardware) you have to choose an appropriate SMBIOS, more details in the [guide](https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html).
+You will need to generate your own SMBIOS and edit the config, since it is required to fully work with macOS. As per this [guide](https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html#platforminfo), you can use the following SMBIOS: MacBookPro16,3. Note that if your hardware is different from the one mentioned [here](#computer-hardware) you have to choose an appropriate SMBIOS, more details in the [guide](https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html).
 
 Use [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate your own unique SMBIOS and then copy each parametter following path (recomended to follow the guide above):
 
@@ -55,7 +55,7 @@ Use [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate your own uniq
 
 ## BIOS setup:
 
-IMPORTANT: Disable TPM and set the assigned VRAM to 1G at minimum, 2G is recommended.
+IMPORTANT: Disable TPM and set the assigned VRAM to 1G at minimum, 2G is recommended. Secure boot should also be off.
 
 ## Credits:
 
