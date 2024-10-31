@@ -13,7 +13,7 @@ THIS IS NOT A GUIDE!
 This is simply an EFI backup for the HP 245 G9. Only use this EFI if you have the exact same model.
 \
 \
-:warning: - **You are warned hereby that we are not responsible for bricked computers, dead GPUs, your CPU turning into a nuclear power generator, or you getting fired because Clock.app failed. Please do some research if you have any concerns about stability of Hackintosh. YOU are choosing to install this unsupported OS on your computer, and if you point the finger at us for messing up your device, we will laugh at you.**
+:warning: - **You are warned hereby that we are not responsible for bricked computers, dead GPUs, your CPU turning into a nuclear power generator, or you getting fired because Clock.app failed. Please do some research if you have any concerns about the stability of Hackintosh. YOU are choosing to install this unsupported OS on your computer, and if you point the finger at us for messing up your device, we will laugh at you.**
 <br>
 
 ## :computer: Hardware:
