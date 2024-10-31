@@ -29,7 +29,6 @@ This is simply an EFI backup for the HP 245 G9. Only use this EFI if you have th
 | **Audio**    | Realtek ALC236 (layout-id=69)                                                    |
 
 ## :white_check_mark: Working:
-
 - [x] CPU power management (still problematic due to AMD, but works fine)
 - [x] Graphics acceleration (OpenGL acceleration seems to be working)
 - [x] Keyboard & Trackpad
@@ -44,8 +43,8 @@ This is simply an EFI backup for the HP 245 G9. Only use this EFI if you have th
 - [x] iCloud & App Store
 - [x] iMessage & FaceTime
 
-## :x: Untested:
-- [x] AirDrop & Handoff (most likely non-functional, but needs testing)
+## :question: In-between:
+- [x] AirDrop & Handoff - Works one-way from your iPhone to your "Mac", cannot work the other way due to itlwm limitations.
 
 ## :no_entry_sign: Not working:
 - [x] Virtualization (due to the lack of AMD-V support in macOS)
@@ -65,12 +64,12 @@ Use [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate your own Plat
 
 ## Credits:
 
-[**Acidanthera**](https://github.com/acidanthera)
+[**Acidanthera**](https://github.com/acidanthera) for [OpenCore](https://github.com/acidanthera/OpenCorePkg)
 
-[**Dortania**](https://dortania.github.io/getting-started/)
+[**Dortania**](https://dortania.github.io/getting-started/) for their guide
 
-[**CorpNewt**](https://github.com/corpnewt)
+[**CorpNewt**](https://github.com/corpnewt) for [ProperTree](https://github.com/corpnewt/ProperTree) and [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)
 
-[**AMD-OSX**](https://github.com/AMD-OSX/AMD_Vanilla)
+[**AMD-OSX**](https://github.com/AMD-OSX/AMD_Vanilla) for AMD Kernel Patches
 
-[**Apple**](http://apple.com/)
+[**Apple**](http://apple.com/) for obvious reasons
