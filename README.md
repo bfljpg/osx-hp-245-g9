@@ -10,6 +10,9 @@
 THIS IS NOT A GUIDE!
 <br/>
 This is simply an EFI backup for the HP 245 G9. Only use this EFI if you have the exact same model.
+<br/>
+:warning: You are warned hereby that we are not responsible for bricked computers, dead GPUs, your CPU turning into a nuclear power generator, or you getting fired because Clock.app failed. Please do some research if you have any concerns about stability of Hackintosh. YOU are choosing to install this unsupported OS on your computer, and if you point the finger at us for messing up your device, we will laugh at you.
+<br/>
 
 ## :computer: Hardware:
 
@@ -19,7 +22,7 @@ This is simply an EFI backup for the HP 245 G9. Only use this EFI if you have th
 | **GPU**      | AMD Radeon RX Vega 7                                                             |
 | **RAM**      | 16GB DDR4 3200MHz                                                                |
 | **SSD**      | WD Blue SN580 / SN770 Black                                                      |
-| **Wi-Fi/BT** | Intel AX200 Wi-Fi 6 (default is RTL8852BE)                                     |
+| **Wi-Fi/BT** | Intel AX200 Wi-Fi 6 (default is RTL8852BE, unsupported)						  |
 | **Ethernet** | Realtek RTL8111                                                                  |
 | **Audio**    | Realtek ALC236 (layout-id=69)                                                    |
 
@@ -47,24 +50,25 @@ This is simply an EFI backup for the HP 245 G9. Only use this EFI if you have th
 
 ## :closed_lock_with_key: SMBIOS
 
-You will need to generate your own SMBIOS and edit the config, since it is required to fully work with macOS. As per this [guide](https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html#platforminfo), you can use the following SMBIOS: MacBookPro16,3. Note that if your hardware is different from the one mentioned [here](#computer-hardware) you have to choose an appropriate SMBIOS, more details in the [guide](https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html).
-
-Use [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate your own unique SMBIOS and then copy each parametter following path (recomended to follow the guide above):
+You will need to generate your own SMBIOS and edit the config, since it is required to boot macOS **at all**. 
+The HP 245 G9 works best with the MacBookPro16,3 SMBIOS, but if a different one that works better is discovered, we'll update the repo.
+Use [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate your own PlatformInfo values and then copy them to the related path in:
 
 - Config.plist -> PlatformInfo -> Generic
 
 ## BIOS setup:
 
-IMPORTANT: Disable TPM and set the assigned VRAM to 1G at minimum, 2G is recommended. Secure boot should also be off.
+- Disable TPM and set the assigned VRAM to 1G at minimum, 2G is recommended. 
+- Secure boot should also be off.
 
 ## Credits:
-
-[**Gabriel Luchina**](https://luchina.com.br)
-
-[**AMD-OSX**](https://github.com/AMD-OSX/AMD_Vanilla)
 
 [**Acidanthera**](https://github.com/acidanthera)
 
 [**Dortania**](https://dortania.github.io/getting-started/)
+
+[**CorpNewt**](https://github.com/corpnewt)
+
+[**AMD-OSX**](https://github.com/AMD-OSX/AMD_Vanilla)
 
 [**Apple**](http://apple.com/)
