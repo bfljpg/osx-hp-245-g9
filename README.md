@@ -1,3 +1,7 @@
+# CURRENTLY UNMAINTAINED - HERE BE DRAGONS!
+Due to neither of the repo maintainers owning this laptop anymore, we cannot guarantee that this EFI still works.
+Support will be provided as much as we can, but unless another 245 G9 user takes over development, there will be no further updates.
+
 # OpenCore EFI for the HP 245 G9
 
 :information_source: **The current version of the EFI is only compatible with macOS Ventura! Any other versions are UNTESTED!**
